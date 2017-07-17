@@ -1,0 +1,565 @@
+2017-06-29 21:12:43,207 [1] INFO  MyGameServer.MyGameServer - SetUp Completed!
+2017-06-29 21:12:43,219 [1] INFO  MyGameServer.MyGameServer - MapInit Start!
+2017-06-29 21:12:43,222 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-29 21:12:43,222 [1] INFO  MyGameServer.MyGameServer - MapSize初始化成功
+2017-06-29 21:12:43,244 [1] INFO  MyGameServer.MyGameServer - SaveTiledSize Start
+2017-06-29 21:12:43,244 [1] INFO  MyGameServer.MyGameServer - TiledSize初始化成功
+2017-06-29 21:12:43,244 [1] INFO  MyGameServer.MyGameServer - SaveMapTiledNum Start
+2017-06-29 21:12:43,244 [1] INFO  MyGameServer.MyGameServer - MapTiledNum初始化成功
+2017-06-29 21:12:43,245 [1] INFO  MyGameServer.MyGameServer - SaveArrayTiled Start
+2017-06-29 21:12:43,246 [1] INFO  MyGameServer.MyGameServer - Tiled初始化成功
+2017-06-29 21:12:43,249 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=MyGame1; AppPath=D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer, Type=MyGameServer.MyGameServer 
+2017-06-29 21:12:53,068 [7] INFO  MyGameServer.MyGameServer - 一个客户端连接进来了
+2017-06-29 21:12:59,405 [7] INFO  MyGameServer.MyGameServer - 1
+2017-06-29 21:13:01,140 [7] INFO  NHibernate.Cfg.Environment - NHibernate 4.1.1.GA (assembly 4.1.0.4000)
+2017-06-29 21:13:01,141 [7] INFO  NHibernate.Cfg.Environment - hibernate-configuration section not found in application configuration file
+2017-06-29 21:13:01,142 [7] INFO  NHibernate.Cfg.Environment - Bytecode provider name : lcg
+2017-06-29 21:13:01,163 [7] INFO  NHibernate.Cfg.Environment - Using reflection optimizer
+2017-06-29 21:13:01,555 [7] ERROR NHibernate.Cfg.Configuration - Problem parsing configuration
+NHibernate.Cfg.HibernateConfigException: An exception occurred during configuration of persistence layer. ---> System.IO.FileNotFoundException: 未能找到文件“D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\hibernate.cfg.xml”。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlCharCheckingReader.Read()
+   在 System.Xml.XsdValidatingReader.Read()
+   在 System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   在 NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+2017-06-29 21:13:01,893 [7] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:ClientPeer,ConnId:0,ip:127.0.0.1:50475, Data: F3-02-01-00-02-00-73-00-03-31-32-33-01-73-00-03-31-32-33,
+Exception:NHibernate.Cfg.HibernateConfigException: An exception occurred during configuration of persistence layer. ---> System.IO.FileNotFoundException: 未能找到文件“D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\hibernate.cfg.xml”。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlCharCheckingReader.Read()
+   在 System.Xml.XsdValidatingReader.Read()
+   在 System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   在 NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure()
+   在 MyGameServer.NHibernateHelper.get_SessionFactory() 位置 e:\VS程序\PhotonServer\MyGameServer\NHibernateHelper.cs:行号 22
+   在 MyGameServer.NHibernateHelper.OpenSession() 位置 e:\VS程序\PhotonServer\MyGameServer\NHibernateHelper.cs:行号 34
+   在 MyGameServer.Manager.UserManager.GetByUsername(String username) 位置 e:\VS程序\PhotonServer\MyGameServer\Manager\UserManager.cs:行号 85
+   在 MyGameServer.Handle.RegisterHandle.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters, ClientPeer peer) 位置 e:\VS程序\PhotonServer\MyGameServer\Handle\RegisterHandle.cs:行号 26
+   在 MyGameServer.ClientPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 e:\VS程序\PhotonServer\MyGameServer\ClientPeer.cs:行号 48
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1244
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-06-29 21:15:27,452 [7] INFO  MyGameServer.MyGameServer - 一个客户端连接进来了
+2017-06-29 21:15:50,263 [11] INFO  MyGameServer.MyGameServer - 1
+2017-06-29 21:15:50,264 [11] ERROR NHibernate.Cfg.Configuration - Problem parsing configuration
+NHibernate.Cfg.HibernateConfigException: An exception occurred during configuration of persistence layer. ---> System.IO.FileNotFoundException: 未能找到文件“D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\hibernate.cfg.xml”。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlCharCheckingReader.Read()
+   在 System.Xml.XsdValidatingReader.Read()
+   在 System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   在 NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+2017-06-29 21:15:50,264 [11] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:ClientPeer,ConnId:1,ip:127.0.0.1:57777, Data: F3-02-01-00-02-00-73-00-03-31-32-33-01-73-00-03-31-32-33,
+Exception:NHibernate.Cfg.HibernateConfigException: An exception occurred during configuration of persistence layer. ---> System.IO.FileNotFoundException: 未能找到文件“D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\hibernate.cfg.xml”。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlCharCheckingReader.Read()
+   在 System.Xml.XsdValidatingReader.Read()
+   在 System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   在 NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure()
+   在 MyGameServer.NHibernateHelper.get_SessionFactory() 位置 e:\VS程序\PhotonServer\MyGameServer\NHibernateHelper.cs:行号 22
+   在 MyGameServer.NHibernateHelper.OpenSession() 位置 e:\VS程序\PhotonServer\MyGameServer\NHibernateHelper.cs:行号 34
+   在 MyGameServer.Manager.UserManager.GetByUsername(String username) 位置 e:\VS程序\PhotonServer\MyGameServer\Manager\UserManager.cs:行号 85
+   在 MyGameServer.Handle.RegisterHandle.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters, ClientPeer peer) 位置 e:\VS程序\PhotonServer\MyGameServer\Handle\RegisterHandle.cs:行号 26
+   在 MyGameServer.ClientPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 e:\VS程序\PhotonServer\MyGameServer\ClientPeer.cs:行号 48
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1244
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-06-29 21:22:41,798 [7] INFO  MyGameServer.MyGameServer - 一个客户端连接进来了
+2017-06-29 21:22:48,215 [11] INFO  MyGameServer.MyGameServer - 1
+2017-06-29 21:22:48,216 [11] ERROR NHibernate.Cfg.Configuration - Problem parsing configuration
+NHibernate.Cfg.HibernateConfigException: An exception occurred during configuration of persistence layer. ---> System.IO.FileNotFoundException: 未能找到文件“D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\hibernate.cfg.xml”。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlCharCheckingReader.Read()
+   在 System.Xml.XsdValidatingReader.Read()
+   在 System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   在 NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+2017-06-29 21:22:48,216 [11] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:ClientPeer,ConnId:2,ip:127.0.0.1:51100, Data: F3-02-01-00-02-00-73-00-03-31-32-33-01-73-00-03-31-32-33,
+Exception:NHibernate.Cfg.HibernateConfigException: An exception occurred during configuration of persistence layer. ---> System.IO.FileNotFoundException: 未能找到文件“D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\hibernate.cfg.xml”。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlCharCheckingReader.Read()
+   在 System.Xml.XsdValidatingReader.Read()
+   在 System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   在 NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure()
+   在 MyGameServer.NHibernateHelper.get_SessionFactory() 位置 e:\VS程序\PhotonServer\MyGameServer\NHibernateHelper.cs:行号 22
+   在 MyGameServer.NHibernateHelper.OpenSession() 位置 e:\VS程序\PhotonServer\MyGameServer\NHibernateHelper.cs:行号 34
+   在 MyGameServer.Manager.UserManager.GetByUsername(String username) 位置 e:\VS程序\PhotonServer\MyGameServer\Manager\UserManager.cs:行号 85
+   在 MyGameServer.Handle.RegisterHandle.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters, ClientPeer peer) 位置 e:\VS程序\PhotonServer\MyGameServer\Handle\RegisterHandle.cs:行号 26
+   在 MyGameServer.ClientPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 e:\VS程序\PhotonServer\MyGameServer\ClientPeer.cs:行号 48
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1244
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-06-29 21:25:27,265 [11] INFO  MyGameServer.MyGameServer - 一个客户端连接进来了
+2017-06-29 21:25:31,556 [7] INFO  MyGameServer.MyGameServer - 1
+2017-06-29 21:25:31,557 [7] ERROR NHibernate.Cfg.Configuration - Problem parsing configuration
+NHibernate.Cfg.HibernateConfigException: An exception occurred during configuration of persistence layer. ---> System.IO.FileNotFoundException: 未能找到文件“D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\hibernate.cfg.xml”。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlCharCheckingReader.Read()
+   在 System.Xml.XsdValidatingReader.Read()
+   在 System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   在 NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+2017-06-29 21:25:31,557 [7] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:ClientPeer,ConnId:3,ip:127.0.0.1:58662, Data: F3-02-01-00-02-00-73-00-03-31-32-33-01-73-00-03-31-32-33,
+Exception:NHibernate.Cfg.HibernateConfigException: An exception occurred during configuration of persistence layer. ---> System.IO.FileNotFoundException: 未能找到文件“D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\hibernate.cfg.xml”。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlCharCheckingReader.Read()
+   在 System.Xml.XsdValidatingReader.Read()
+   在 System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   在 NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure()
+   在 MyGameServer.NHibernateHelper.get_SessionFactory() 位置 e:\VS程序\PhotonServer\MyGameServer\NHibernateHelper.cs:行号 22
+   在 MyGameServer.NHibernateHelper.OpenSession() 位置 e:\VS程序\PhotonServer\MyGameServer\NHibernateHelper.cs:行号 34
+   在 MyGameServer.Manager.UserManager.GetByUsername(String username) 位置 e:\VS程序\PhotonServer\MyGameServer\Manager\UserManager.cs:行号 85
+   在 MyGameServer.Handle.RegisterHandle.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters, ClientPeer peer) 位置 e:\VS程序\PhotonServer\MyGameServer\Handle\RegisterHandle.cs:行号 26
+   在 MyGameServer.ClientPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 e:\VS程序\PhotonServer\MyGameServer\ClientPeer.cs:行号 48
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1244
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-06-29 21:39:28,605 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-29 21:39:28,636 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1
+2017-06-29 21:39:47,947 [1] INFO  MyGameServer.MyGameServer - SetUp Completed!
+2017-06-29 21:39:47,958 [1] INFO  MyGameServer.MyGameServer - MapInit Start!
+2017-06-29 21:39:47,959 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-29 21:39:47,960 [1] INFO  MyGameServer.MyGameServer - MapSize初始化成功
+2017-06-29 21:39:47,960 [1] INFO  MyGameServer.MyGameServer - SaveTiledSize Start
+2017-06-29 21:39:47,960 [1] INFO  MyGameServer.MyGameServer - TiledSize初始化成功
+2017-06-29 21:39:47,960 [1] INFO  MyGameServer.MyGameServer - SaveMapTiledNum Start
+2017-06-29 21:39:47,961 [1] INFO  MyGameServer.MyGameServer - MapTiledNum初始化成功
+2017-06-29 21:39:47,961 [1] INFO  MyGameServer.MyGameServer - SaveArrayTiled Start
+2017-06-29 21:39:47,962 [1] INFO  MyGameServer.MyGameServer - Tiled初始化成功
+2017-06-29 21:39:47,965 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=MyGame1; AppPath=D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer, Type=MyGameServer.MyGameServer 
+2017-06-29 21:39:54,271 [11] INFO  MyGameServer.MyGameServer - 一个客户端连接进来了
+2017-06-29 21:39:59,786 [12] INFO  MyGameServer.MyGameServer - 1
+2017-06-29 21:39:59,892 [12] INFO  NHibernate.Cfg.Environment - NHibernate 4.1.1.GA (assembly 4.1.0.4000)
+2017-06-29 21:39:59,893 [12] INFO  NHibernate.Cfg.Environment - hibernate-configuration section not found in application configuration file
+2017-06-29 21:39:59,893 [12] INFO  NHibernate.Cfg.Environment - Bytecode provider name : lcg
+2017-06-29 21:39:59,895 [12] INFO  NHibernate.Cfg.Environment - Using reflection optimizer
+2017-06-29 21:39:59,948 [12] INFO  NHibernate.Cfg.Configuration - Searching for mapped documents in assembly: MyGameServer
+2017-06-29 21:39:59,949 [12] WARN  NHibernate.Cfg.Configuration - No mapped documents found in assembly: MyGameServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-06-29 21:40:00,009 [12] INFO  NHibernate.Cfg.Configuration - checking mappings queue
+2017-06-29 21:40:00,009 [12] INFO  NHibernate.Cfg.Configuration - processing one-to-many association mappings
+2017-06-29 21:40:00,009 [12] INFO  NHibernate.Cfg.Configuration - processing one-to-one association property references
+2017-06-29 21:40:00,009 [12] INFO  NHibernate.Cfg.Configuration - processing foreign key constraints
+2017-06-29 21:40:00,009 [12] INFO  NHibernate.Cfg.Configuration - processing filters (second pass)
+2017-06-29 21:40:00,114 [12] WARN  NHibernate.Util.ReflectHelper - Could not load type NHibernate.Dialect.MsSql5Dialect. Possible cause: no assembly name specified.
+2017-06-29 21:40:00,114 [12] ERROR NHibernate.Util.ReflectHelper - Could not load type NHibernate.Dialect.MsSql5Dialect.
+System.TypeLoadException: Could not load type NHibernate.Dialect.MsSql5Dialect. Possible cause: no assembly name specified.
+   在 NHibernate.Util.ReflectHelper.TypeFromAssembly(AssemblyQualifiedTypeName name, Boolean throwOnError)
+2017-06-29 21:40:00,125 [12] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:ClientPeer,ConnId:0,ip:127.0.0.1:60728, Data: F3-02-01-00-02-00-73-00-03-31-32-33-01-73-00-03-31-32-33,
+Exception:NHibernate.HibernateException: Could not instantiate dialect class NHibernate.Dialect.MsSql5Dialect ---> System.TypeLoadException: Could not load type NHibernate.Dialect.MsSql5Dialect. Possible cause: no assembly name specified.
+   在 NHibernate.Util.ReflectHelper.TypeFromAssembly(AssemblyQualifiedTypeName name, Boolean throwOnError)
+   在 NHibernate.Dialect.Dialect.InstantiateDialect(String dialectName)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Dialect.Dialect.InstantiateDialect(String dialectName)
+   在 NHibernate.Dialect.Dialect.GetDialect(IDictionary`2 props)
+   在 NHibernate.Cfg.Configuration.GetDerivedProperties()
+   在 NHibernate.Cfg.Configuration.BuildSettings()
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 MyGameServer.NHibernateHelper.get_SessionFactory() 位置 e:\VS程序\PhotonServer\MyGameServer\NHibernateHelper.cs:行号 25
+   在 MyGameServer.NHibernateHelper.OpenSession() 位置 e:\VS程序\PhotonServer\MyGameServer\NHibernateHelper.cs:行号 34
+   在 MyGameServer.Manager.UserManager.GetByUsername(String username) 位置 e:\VS程序\PhotonServer\MyGameServer\Manager\UserManager.cs:行号 85
+   在 MyGameServer.Handle.RegisterHandle.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters, ClientPeer peer) 位置 e:\VS程序\PhotonServer\MyGameServer\Handle\RegisterHandle.cs:行号 26
+   在 MyGameServer.ClientPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 e:\VS程序\PhotonServer\MyGameServer\ClientPeer.cs:行号 48
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1244
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-06-29 21:42:27,226 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-29 21:42:27,230 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1
+2017-06-29 21:43:18,701 [1] INFO  MyGameServer.MyGameServer - SetUp Completed!
+2017-06-29 21:43:18,713 [1] INFO  MyGameServer.MyGameServer - MapInit Start!
+2017-06-29 21:43:18,714 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-29 21:43:18,715 [1] INFO  MyGameServer.MyGameServer - MapSize初始化成功
+2017-06-29 21:43:18,715 [1] INFO  MyGameServer.MyGameServer - SaveTiledSize Start
+2017-06-29 21:43:18,715 [1] INFO  MyGameServer.MyGameServer - TiledSize初始化成功
+2017-06-29 21:43:18,715 [1] INFO  MyGameServer.MyGameServer - SaveMapTiledNum Start
+2017-06-29 21:43:18,715 [1] INFO  MyGameServer.MyGameServer - MapTiledNum初始化成功
+2017-06-29 21:43:18,716 [1] INFO  MyGameServer.MyGameServer - SaveArrayTiled Start
+2017-06-29 21:43:18,717 [1] INFO  MyGameServer.MyGameServer - Tiled初始化成功
+2017-06-29 21:43:18,720 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=MyGame1; AppPath=D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer, Type=MyGameServer.MyGameServer 
+2017-06-29 21:43:26,679 [7] INFO  MyGameServer.MyGameServer - 一个客户端连接进来了
+2017-06-29 21:43:30,441 [13] INFO  MyGameServer.MyGameServer - 1
+2017-06-29 21:43:30,529 [13] INFO  NHibernate.Cfg.Environment - NHibernate 4.1.1.GA (assembly 4.1.0.4000)
+2017-06-29 21:43:30,530 [13] INFO  NHibernate.Cfg.Environment - hibernate-configuration section not found in application configuration file
+2017-06-29 21:43:30,530 [13] INFO  NHibernate.Cfg.Environment - Bytecode provider name : lcg
+2017-06-29 21:43:30,531 [13] INFO  NHibernate.Cfg.Environment - Using reflection optimizer
+2017-06-29 21:43:30,561 [13] INFO  NHibernate.Cfg.Configuration - Searching for mapped documents in assembly: MyGameServer
+2017-06-29 21:43:30,563 [13] WARN  NHibernate.Cfg.Configuration - No mapped documents found in assembly: MyGameServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-06-29 21:43:30,565 [13] INFO  NHibernate.Cfg.Configuration - checking mappings queue
+2017-06-29 21:43:30,566 [13] INFO  NHibernate.Cfg.Configuration - processing one-to-many association mappings
+2017-06-29 21:43:30,566 [13] INFO  NHibernate.Cfg.Configuration - processing one-to-one association property references
+2017-06-29 21:43:30,566 [13] INFO  NHibernate.Cfg.Configuration - processing foreign key constraints
+2017-06-29 21:43:30,566 [13] INFO  NHibernate.Cfg.Configuration - processing filters (second pass)
+2017-06-29 21:43:30,578 [13] WARN  NHibernate.Util.ReflectHelper - Could not load type NHibernate.Dialect.MySql5Dialect. Possible cause: no assembly name specified.
+2017-06-29 21:43:30,579 [13] ERROR NHibernate.Util.ReflectHelper - Could not load type NHibernate.Dialect.MySql5Dialect.
+System.TypeLoadException: Could not load type NHibernate.Dialect.MySql5Dialect. Possible cause: no assembly name specified.
+   在 NHibernate.Util.ReflectHelper.TypeFromAssembly(AssemblyQualifiedTypeName name, Boolean throwOnError)
+2017-06-29 21:43:30,582 [13] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:ClientPeer,ConnId:0,ip:127.0.0.1:61080, Data: F3-02-01-00-02-00-73-00-03-31-32-33-01-73-00-03-31-32-33,
+Exception:NHibernate.HibernateException: Could not instantiate dialect class NHibernate.Dialect.MySql5Dialect ---> System.TypeLoadException: Could not load type NHibernate.Dialect.MySql5Dialect. Possible cause: no assembly name specified.
+   在 NHibernate.Util.ReflectHelper.TypeFromAssembly(AssemblyQualifiedTypeName name, Boolean throwOnError)
+   在 NHibernate.Dialect.Dialect.InstantiateDialect(String dialectName)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Dialect.Dialect.InstantiateDialect(String dialectName)
+   在 NHibernate.Dialect.Dialect.GetDialect(IDictionary`2 props)
+   在 NHibernate.Cfg.Configuration.GetDerivedProperties()
+   在 NHibernate.Cfg.Configuration.BuildSettings()
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 MyGameServer.NHibernateHelper.get_SessionFactory() 位置 e:\VS程序\PhotonServer\MyGameServer\NHibernateHelper.cs:行号 25
+   在 MyGameServer.NHibernateHelper.OpenSession() 位置 e:\VS程序\PhotonServer\MyGameServer\NHibernateHelper.cs:行号 34
+   在 MyGameServer.Manager.UserManager.GetByUsername(String username) 位置 e:\VS程序\PhotonServer\MyGameServer\Manager\UserManager.cs:行号 85
+   在 MyGameServer.Handle.RegisterHandle.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters, ClientPeer peer) 位置 e:\VS程序\PhotonServer\MyGameServer\Handle\RegisterHandle.cs:行号 26
+   在 MyGameServer.ClientPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 e:\VS程序\PhotonServer\MyGameServer\ClientPeer.cs:行号 48
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1244
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-06-29 21:44:46,780 [16] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-29 21:44:46,782 [16] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1
+2017-06-29 21:44:49,529 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-29 21:44:49,550 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1
+2017-06-29 21:44:56,876 [1] INFO  MyGameServer.MyGameServer - SetUp Completed!
+2017-06-29 21:44:56,887 [1] INFO  MyGameServer.MyGameServer - MapInit Start!
+2017-06-29 21:44:56,889 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-29 21:44:56,889 [1] INFO  MyGameServer.MyGameServer - MapSize初始化成功
+2017-06-29 21:44:56,890 [1] INFO  MyGameServer.MyGameServer - SaveTiledSize Start
+2017-06-29 21:44:56,890 [1] INFO  MyGameServer.MyGameServer - TiledSize初始化成功
+2017-06-29 21:44:56,890 [1] INFO  MyGameServer.MyGameServer - SaveMapTiledNum Start
+2017-06-29 21:44:56,890 [1] INFO  MyGameServer.MyGameServer - MapTiledNum初始化成功
+2017-06-29 21:44:56,891 [1] INFO  MyGameServer.MyGameServer - SaveArrayTiled Start
+2017-06-29 21:44:56,892 [1] INFO  MyGameServer.MyGameServer - Tiled初始化成功
+2017-06-29 21:44:56,895 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=MyGame1; AppPath=D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer, Type=MyGameServer.MyGameServer 
+2017-06-29 21:45:01,961 [12] INFO  MyGameServer.MyGameServer - 一个客户端连接进来了
+2017-06-29 21:45:05,675 [13] INFO  MyGameServer.MyGameServer - 1
+2017-06-29 21:45:05,748 [13] INFO  NHibernate.Cfg.Environment - NHibernate 4.1.1.GA (assembly 4.1.0.4000)
+2017-06-29 21:45:05,748 [13] INFO  NHibernate.Cfg.Environment - hibernate-configuration section not found in application configuration file
+2017-06-29 21:45:05,749 [13] INFO  NHibernate.Cfg.Environment - Bytecode provider name : lcg
+2017-06-29 21:45:05,750 [13] INFO  NHibernate.Cfg.Environment - Using reflection optimizer
+2017-06-29 21:45:05,780 [13] INFO  NHibernate.Cfg.Configuration - Searching for mapped documents in assembly: MyGameServer
+2017-06-29 21:45:05,782 [13] WARN  NHibernate.Cfg.Configuration - No mapped documents found in assembly: MyGameServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-06-29 21:45:05,785 [13] INFO  NHibernate.Cfg.Configuration - checking mappings queue
+2017-06-29 21:45:05,785 [13] INFO  NHibernate.Cfg.Configuration - processing one-to-many association mappings
+2017-06-29 21:45:05,785 [13] INFO  NHibernate.Cfg.Configuration - processing one-to-one association property references
+2017-06-29 21:45:05,785 [13] INFO  NHibernate.Cfg.Configuration - processing foreign key constraints
+2017-06-29 21:45:05,785 [13] INFO  NHibernate.Cfg.Configuration - processing filters (second pass)
+2017-06-29 21:45:05,850 [13] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.MySQL5Dialect
+2017-06-29 21:45:05,983 [13] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.MySQL5Dialect
+2017-06-29 21:45:06,264 [13] INFO  NHibernate.Exceptions.SQLExceptionConverterFactory - Using dialect defined converter
+2017-06-29 21:45:06,264 [13] INFO  NHibernate.Cfg.SettingsFactory - Generate SQL with comments: disabled
+2017-06-29 21:45:06,264 [13] INFO  NHibernate.Connection.ConnectionProviderFactory - Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2017-06-29 21:45:06,265 [13] INFO  NHibernate.Connection.ConnectionProvider - Configuring ConnectionProvider
+2017-06-29 21:45:06,267 [13] WARN  NHibernate.Util.ReflectHelper - Could not load type NHibernate.Driver.MySQLDataDriver. Possible cause: no assembly name specified.
+2017-06-29 21:45:06,267 [13] ERROR NHibernate.Util.ReflectHelper - Could not load type NHibernate.Driver.MySQLDataDriver.
+System.TypeLoadException: Could not load type NHibernate.Driver.MySQLDataDriver. Possible cause: no assembly name specified.
+   在 NHibernate.Util.ReflectHelper.TypeFromAssembly(AssemblyQualifiedTypeName name, Boolean throwOnError)
+2017-06-29 21:45:06,270 [13] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:ClientPeer,ConnId:0,ip:127.0.0.1:49329, Data: F3-02-01-00-02-00-73-00-03-31-32-33-01-73-00-03-31-32-33,
+Exception:NHibernate.HibernateException: Could not create the driver from NHibernate.Driver.MySQLDataDriver. ---> System.TypeLoadException: Could not load type NHibernate.Driver.MySQLDataDriver. Possible cause: no assembly name specified.
+   在 NHibernate.Util.ReflectHelper.TypeFromAssembly(AssemblyQualifiedTypeName name, Boolean throwOnError)
+   在 NHibernate.Connection.ConnectionProvider.ConfigureDriver(IDictionary`2 settings)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Connection.ConnectionProvider.ConfigureDriver(IDictionary`2 settings)
+   在 NHibernate.Connection.ConnectionProviderFactory.NewConnectionProvider(IDictionary`2 settings)
+   在 NHibernate.Cfg.SettingsFactory.BuildSettings(IDictionary`2 properties)
+   在 NHibernate.Cfg.Configuration.BuildSettings()
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 MyGameServer.NHibernateHelper.get_SessionFactory() 位置 e:\VS程序\PhotonServer\MyGameServer\NHibernateHelper.cs:行号 25
+   在 MyGameServer.NHibernateHelper.OpenSession() 位置 e:\VS程序\PhotonServer\MyGameServer\NHibernateHelper.cs:行号 34
+   在 MyGameServer.Manager.UserManager.GetByUsername(String username) 位置 e:\VS程序\PhotonServer\MyGameServer\Manager\UserManager.cs:行号 85
+   在 MyGameServer.Handle.RegisterHandle.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters, ClientPeer peer) 位置 e:\VS程序\PhotonServer\MyGameServer\Handle\RegisterHandle.cs:行号 26
+   在 MyGameServer.ClientPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 e:\VS程序\PhotonServer\MyGameServer\ClientPeer.cs:行号 48
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1244
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-06-29 21:46:26,080 [16] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-29 21:46:26,082 [16] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1
+2017-06-29 21:46:28,757 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-29 21:46:28,773 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1
+2017-06-29 21:46:37,081 [1] INFO  MyGameServer.MyGameServer - SetUp Completed!
+2017-06-29 21:46:37,092 [1] INFO  MyGameServer.MyGameServer - MapInit Start!
+2017-06-29 21:46:37,093 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-29 21:46:37,094 [1] INFO  MyGameServer.MyGameServer - MapSize初始化成功
+2017-06-29 21:46:37,094 [1] INFO  MyGameServer.MyGameServer - SaveTiledSize Start
+2017-06-29 21:46:37,094 [1] INFO  MyGameServer.MyGameServer - TiledSize初始化成功
+2017-06-29 21:46:37,094 [1] INFO  MyGameServer.MyGameServer - SaveMapTiledNum Start
+2017-06-29 21:46:37,095 [1] INFO  MyGameServer.MyGameServer - MapTiledNum初始化成功
+2017-06-29 21:46:37,095 [1] INFO  MyGameServer.MyGameServer - SaveArrayTiled Start
+2017-06-29 21:46:37,096 [1] INFO  MyGameServer.MyGameServer - Tiled初始化成功
+2017-06-29 21:46:37,099 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=MyGame1; AppPath=D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer, Type=MyGameServer.MyGameServer 
+2017-06-29 21:46:40,451 [13] INFO  MyGameServer.MyGameServer - 一个客户端连接进来了
+2017-06-29 21:46:43,748 [12] INFO  MyGameServer.MyGameServer - 1
+2017-06-29 21:46:43,905 [12] INFO  NHibernate.Cfg.Environment - NHibernate 4.1.1.GA (assembly 4.1.0.4000)
+2017-06-29 21:46:43,906 [12] INFO  NHibernate.Cfg.Environment - hibernate-configuration section not found in application configuration file
+2017-06-29 21:46:43,906 [12] INFO  NHibernate.Cfg.Environment - Bytecode provider name : lcg
+2017-06-29 21:46:43,907 [12] INFO  NHibernate.Cfg.Environment - Using reflection optimizer
+2017-06-29 21:46:43,936 [12] INFO  NHibernate.Cfg.Configuration - Searching for mapped documents in assembly: MyGameServer
+2017-06-29 21:46:43,937 [12] WARN  NHibernate.Cfg.Configuration - No mapped documents found in assembly: MyGameServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-06-29 21:46:43,940 [12] INFO  NHibernate.Cfg.Configuration - checking mappings queue
+2017-06-29 21:46:43,940 [12] INFO  NHibernate.Cfg.Configuration - processing one-to-many association mappings
+2017-06-29 21:46:43,940 [12] INFO  NHibernate.Cfg.Configuration - processing one-to-one association property references
+2017-06-29 21:46:43,940 [12] INFO  NHibernate.Cfg.Configuration - processing foreign key constraints
+2017-06-29 21:46:43,940 [12] INFO  NHibernate.Cfg.Configuration - processing filters (second pass)
+2017-06-29 21:46:43,966 [12] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.MySQL5Dialect
+2017-06-29 21:46:43,994 [12] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.MySQL5Dialect
+2017-06-29 21:46:44,050 [12] INFO  NHibernate.Exceptions.SQLExceptionConverterFactory - Using dialect defined converter
+2017-06-29 21:46:44,050 [12] INFO  NHibernate.Cfg.SettingsFactory - Generate SQL with comments: disabled
+2017-06-29 21:46:44,051 [12] INFO  NHibernate.Connection.ConnectionProviderFactory - Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2017-06-29 21:46:44,052 [12] INFO  NHibernate.Connection.ConnectionProvider - Configuring ConnectionProvider
+2017-06-29 21:46:44,328 [12] INFO  NHibernate.Cfg.SettingsFactory - Transaction factory: NHibernate.Transaction.AdoNetWithDistributedTransactionFactory
+2017-06-29 21:46:44,328 [12] INFO  NHibernate.Cfg.SettingsFactory - Optimize cache for minimal puts: False
+2017-06-29 21:46:44,328 [12] INFO  NHibernate.Cfg.SettingsFactory - Connection release mode: auto
+2017-06-29 21:46:44,328 [12] INFO  NHibernate.Cfg.SettingsFactory - Default batch fetch size: 1
+2017-06-29 21:46:44,328 [12] INFO  NHibernate.Cfg.SettingsFactory - echoing all SQL to stdout
+2017-06-29 21:46:44,328 [12] INFO  NHibernate.Cfg.SettingsFactory - Statistics: disabled
+2017-06-29 21:46:44,328 [12] INFO  NHibernate.Cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+2017-06-29 21:46:44,329 [12] INFO  NHibernate.Cfg.SettingsFactory - Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2017-06-29 21:46:44,349 [12] INFO  NHibernate.Cfg.SettingsFactory - Query provider: NHibernate.Linq.DefaultQueryProvider
+2017-06-29 21:46:44,350 [12] INFO  NHibernate.Cfg.SettingsFactory - Query language substitutions: {}
+2017-06-29 21:46:44,351 [12] INFO  NHibernate.Cfg.SettingsFactory - cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=4.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2017-06-29 21:46:44,353 [12] INFO  NHibernate.Cfg.SettingsFactory - Order SQL inserts for batching: disabled
+2017-06-29 21:46:44,353 [12] INFO  NHibernate.Cfg.SettingsFactory - Order SQL updates for batching: disabled
+2017-06-29 21:46:44,354 [12] INFO  NHibernate.Cfg.SettingsFactory - Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=4.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2017-06-29 21:46:44,354 [12] INFO  NHibernate.Cfg.SettingsFactory - Default flush mode: Auto
+2017-06-29 21:46:44,354 [12] INFO  NHibernate.Cfg.SettingsFactory - Default entity-mode: Poco
+2017-06-29 21:46:44,354 [12] INFO  NHibernate.Cfg.SettingsFactory - Named query checking : enabled
+2017-06-29 21:46:44,354 [12] INFO  NHibernate.Cfg.SettingsFactory - Ignoring exceptions in BeforeTransactionCompletion : disabled
+2017-06-29 21:46:44,376 [12] INFO  NHibernate.Impl.SessionFactoryImpl - building session factory
+2017-06-29 21:46:45,351 [12] INFO  NHibernate.Impl.SessionFactoryObjectFactory - no name configured
+2017-06-29 21:46:45,474 [12] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:ClientPeer,ConnId:0,ip:127.0.0.1:62058, Data: F3-02-01-00-02-00-73-00-03-31-32-33-01-73-00-03-31-32-33,
+Exception:NHibernate.MappingException: No persister for: MyGameServer.Model.User
+   在 NHibernate.Impl.SessionFactoryImpl.GetEntityPersister(String entityName)
+   在 NHibernate.Impl.SessionImpl.GetEntityPersister(String entityName, Object obj)
+   在 NHibernate.Event.Default.AbstractSaveEventListener.SaveWithGeneratedId(Object entity, String entityName, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   在 NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.SaveWithGeneratedOrRequestedId(SaveOrUpdateEvent event)
+   在 NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.EntityIsTransient(SaveOrUpdateEvent event)
+   在 NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.OnSaveOrUpdate(SaveOrUpdateEvent event)
+   在 NHibernate.Impl.SessionImpl.FireSave(SaveOrUpdateEvent event)
+   在 NHibernate.Impl.SessionImpl.Save(Object obj)
+   在 MyGameServer.Manager.UserManager.Add(User user) 位置 e:\VS程序\PhotonServer\MyGameServer\Manager\UserManager.cs:行号 39
+   在 MyGameServer.Handle.RegisterHandle.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters, ClientPeer peer) 位置 e:\VS程序\PhotonServer\MyGameServer\Handle\RegisterHandle.cs:行号 31
+   在 MyGameServer.ClientPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 e:\VS程序\PhotonServer\MyGameServer\ClientPeer.cs:行号 48
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1244
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-06-29 21:57:49,052 [15] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-29 21:57:49,054 [15] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1
+2017-06-29 21:57:52,329 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-29 21:57:52,345 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1
+2017-06-29 21:57:58,492 [1] INFO  MyGameServer.MyGameServer - SetUp Completed!
+2017-06-29 21:57:58,502 [1] INFO  MyGameServer.MyGameServer - MapInit Start!
+2017-06-29 21:57:58,504 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-29 21:57:58,504 [1] INFO  MyGameServer.MyGameServer - MapSize初始化成功
+2017-06-29 21:57:58,504 [1] INFO  MyGameServer.MyGameServer - SaveTiledSize Start
+2017-06-29 21:57:58,504 [1] INFO  MyGameServer.MyGameServer - TiledSize初始化成功
+2017-06-29 21:57:58,505 [1] INFO  MyGameServer.MyGameServer - SaveMapTiledNum Start
+2017-06-29 21:57:58,505 [1] INFO  MyGameServer.MyGameServer - MapTiledNum初始化成功
+2017-06-29 21:57:58,506 [1] INFO  MyGameServer.MyGameServer - SaveArrayTiled Start
+2017-06-29 21:57:58,506 [1] INFO  MyGameServer.MyGameServer - Tiled初始化成功
+2017-06-29 21:57:58,509 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=MyGame1; AppPath=D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer, Type=MyGameServer.MyGameServer 
+2017-06-29 21:58:04,476 [11] INFO  MyGameServer.MyGameServer - 一个客户端连接进来了
+2017-06-29 21:58:08,254 [12] INFO  MyGameServer.MyGameServer - 1
+2017-06-29 21:58:08,571 [12] INFO  NHibernate.Cfg.Environment - NHibernate 4.1.1.GA (assembly 4.1.0.4000)
+2017-06-29 21:58:08,572 [12] INFO  NHibernate.Cfg.Environment - hibernate-configuration section not found in application configuration file
+2017-06-29 21:58:08,572 [12] INFO  NHibernate.Cfg.Environment - Bytecode provider name : lcg
+2017-06-29 21:58:08,573 [12] INFO  NHibernate.Cfg.Environment - Using reflection optimizer
+2017-06-29 21:58:08,600 [12] INFO  NHibernate.Cfg.Configuration - Searching for mapped documents in assembly: MyGameServer
+2017-06-29 21:58:08,602 [12] INFO  NHibernate.Cfg.Configuration - Mapping resource: MyGameServer.Mappings.User.hbm.xml
+2017-06-29 21:58:09,391 [12] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.MySQL5Dialect
+2017-06-29 21:58:09,470 [12] INFO  NHibernate.Cfg.XmlHbmBinding.Binder - Mapping class: MyGameServer.Model.User -> users
+2017-06-29 21:58:09,547 [12] INFO  NHibernate.Cfg.Configuration - checking mappings queue
+2017-06-29 21:58:09,547 [12] INFO  NHibernate.Cfg.Configuration - processing one-to-many association mappings
+2017-06-29 21:58:09,547 [12] INFO  NHibernate.Cfg.Configuration - processing one-to-one association property references
+2017-06-29 21:58:09,547 [12] INFO  NHibernate.Cfg.Configuration - processing foreign key constraints
+2017-06-29 21:58:09,558 [12] INFO  NHibernate.Cfg.Configuration - processing filters (second pass)
+2017-06-29 21:58:09,604 [12] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.MySQL5Dialect
+2017-06-29 21:58:09,611 [12] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.MySQL5Dialect
+2017-06-29 21:58:09,669 [12] INFO  NHibernate.Exceptions.SQLExceptionConverterFactory - Using dialect defined converter
+2017-06-29 21:58:09,669 [12] INFO  NHibernate.Cfg.SettingsFactory - Generate SQL with comments: disabled
+2017-06-29 21:58:09,670 [12] INFO  NHibernate.Connection.ConnectionProviderFactory - Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2017-06-29 21:58:09,670 [12] INFO  NHibernate.Connection.ConnectionProvider - Configuring ConnectionProvider
+2017-06-29 21:58:09,683 [12] INFO  NHibernate.Cfg.SettingsFactory - Transaction factory: NHibernate.Transaction.AdoNetWithDistributedTransactionFactory
+2017-06-29 21:58:09,683 [12] INFO  NHibernate.Cfg.SettingsFactory - Optimize cache for minimal puts: False
+2017-06-29 21:58:09,683 [12] INFO  NHibernate.Cfg.SettingsFactory - Connection release mode: auto
+2017-06-29 21:58:09,683 [12] INFO  NHibernate.Cfg.SettingsFactory - Default batch fetch size: 1
+2017-06-29 21:58:09,683 [12] INFO  NHibernate.Cfg.SettingsFactory - echoing all SQL to stdout
+2017-06-29 21:58:09,683 [12] INFO  NHibernate.Cfg.SettingsFactory - Statistics: disabled
+2017-06-29 21:58:09,683 [12] INFO  NHibernate.Cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+2017-06-29 21:58:09,684 [12] INFO  NHibernate.Cfg.SettingsFactory - Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2017-06-29 21:58:09,685 [12] INFO  NHibernate.Cfg.SettingsFactory - Query provider: NHibernate.Linq.DefaultQueryProvider
+2017-06-29 21:58:09,686 [12] INFO  NHibernate.Cfg.SettingsFactory - Query language substitutions: {}
+2017-06-29 21:58:09,687 [12] INFO  NHibernate.Cfg.SettingsFactory - cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=4.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2017-06-29 21:58:09,687 [12] INFO  NHibernate.Cfg.SettingsFactory - Order SQL inserts for batching: disabled
+2017-06-29 21:58:09,687 [12] INFO  NHibernate.Cfg.SettingsFactory - Order SQL updates for batching: disabled
+2017-06-29 21:58:09,688 [12] INFO  NHibernate.Cfg.SettingsFactory - Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=4.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2017-06-29 21:58:09,688 [12] INFO  NHibernate.Cfg.SettingsFactory - Default flush mode: Auto
+2017-06-29 21:58:09,688 [12] INFO  NHibernate.Cfg.SettingsFactory - Default entity-mode: Poco
+2017-06-29 21:58:09,688 [12] INFO  NHibernate.Cfg.SettingsFactory - Named query checking : enabled
+2017-06-29 21:58:09,688 [12] INFO  NHibernate.Cfg.SettingsFactory - Ignoring exceptions in BeforeTransactionCompletion : disabled
+2017-06-29 21:58:09,701 [12] INFO  NHibernate.Impl.SessionFactoryImpl - building session factory
+2017-06-29 21:58:10,073 [12] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:ClientPeer,ConnId:0,ip:127.0.0.1:54415, Data: F3-02-01-00-02-00-73-00-03-31-32-33-01-73-00-03-31-32-33,
+Exception:NHibernate.PropertyNotFoundException: Could not find a getter for property 'UserName' in class 'MyGameServer.Model.User'
+   在 NHibernate.Properties.BasicPropertyAccessor.GetGetter(Type type, String propertyName)
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer.BuildPropertyGetter(Property mappedProperty, PersistentClass mappedEntity)
+   在 NHibernate.Tuple.Entity.AbstractEntityTuplizer..ctor(EntityMetamodel entityMetamodel, PersistentClass mappingInfo)
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer..ctor(EntityMetamodel entityMetamodel, PersistentClass mappedEntity)
+   在 NHibernate.Tuple.Entity.EntityEntityModeToTuplizerMapping..ctor(PersistentClass mappedEntity, EntityMetamodel em)
+   在 NHibernate.Tuple.Entity.EntityMetamodel..ctor(PersistentClass persistentClass, ISessionFactoryImplementor sessionFactory)
+   在 NHibernate.Persister.Entity.AbstractEntityPersister..ctor(PersistentClass persistentClass, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory)
+   在 NHibernate.Persister.Entity.SingleTableEntityPersister..ctor(PersistentClass persistentClass, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory, IMapping mapping)
+   在 NHibernate.Persister.PersisterFactory.CreateClassPersister(PersistentClass model, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory, IMapping cfg)
+   在 NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 MyGameServer.NHibernateHelper.get_SessionFactory() 位置 e:\VS程序\PhotonServer\MyGameServer\NHibernateHelper.cs:行号 25
+   在 MyGameServer.NHibernateHelper.OpenSession() 位置 e:\VS程序\PhotonServer\MyGameServer\NHibernateHelper.cs:行号 34
+   在 MyGameServer.Manager.UserManager.GetByUsername(String username) 位置 e:\VS程序\PhotonServer\MyGameServer\Manager\UserManager.cs:行号 85
+   在 MyGameServer.Handle.RegisterHandle.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters, ClientPeer peer) 位置 e:\VS程序\PhotonServer\MyGameServer\Handle\RegisterHandle.cs:行号 26
+   在 MyGameServer.ClientPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 e:\VS程序\PhotonServer\MyGameServer\ClientPeer.cs:行号 48
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1244
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-06-29 21:58:43,131 [15] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-29 21:58:43,133 [15] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1
+2017-06-29 21:58:46,551 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-29 21:58:46,570 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1
+2017-06-29 21:58:52,282 [1] INFO  MyGameServer.MyGameServer - SetUp Completed!
+2017-06-29 21:58:52,293 [1] INFO  MyGameServer.MyGameServer - MapInit Start!
+2017-06-29 21:58:52,295 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-29 21:58:52,295 [1] INFO  MyGameServer.MyGameServer - MapSize初始化成功
+2017-06-29 21:58:52,295 [1] INFO  MyGameServer.MyGameServer - SaveTiledSize Start
+2017-06-29 21:58:52,296 [1] INFO  MyGameServer.MyGameServer - TiledSize初始化成功
+2017-06-29 21:58:52,296 [1] INFO  MyGameServer.MyGameServer - SaveMapTiledNum Start
+2017-06-29 21:58:52,296 [1] INFO  MyGameServer.MyGameServer - MapTiledNum初始化成功
+2017-06-29 21:58:52,297 [1] INFO  MyGameServer.MyGameServer - SaveArrayTiled Start
+2017-06-29 21:58:52,298 [1] INFO  MyGameServer.MyGameServer - Tiled初始化成功
+2017-06-29 21:58:52,301 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=MyGame1; AppPath=D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer, Type=MyGameServer.MyGameServer 
+2017-06-29 21:58:55,908 [13] INFO  MyGameServer.MyGameServer - 一个客户端连接进来了
+2017-06-29 21:59:00,117 [12] INFO  MyGameServer.MyGameServer - 1
+2017-06-29 21:59:00,195 [12] INFO  NHibernate.Cfg.Environment - NHibernate 4.1.1.GA (assembly 4.1.0.4000)
+2017-06-29 21:59:00,196 [12] INFO  NHibernate.Cfg.Environment - hibernate-configuration section not found in application configuration file
+2017-06-29 21:59:00,197 [12] INFO  NHibernate.Cfg.Environment - Bytecode provider name : lcg
+2017-06-29 21:59:00,197 [12] INFO  NHibernate.Cfg.Environment - Using reflection optimizer
+2017-06-29 21:59:00,228 [12] INFO  NHibernate.Cfg.Configuration - Searching for mapped documents in assembly: MyGameServer
+2017-06-29 21:59:00,229 [12] INFO  NHibernate.Cfg.Configuration - Mapping resource: MyGameServer.Mappings.User.hbm.xml
+2017-06-29 21:59:00,550 [12] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.MySQL5Dialect
+2017-06-29 21:59:00,600 [12] INFO  NHibernate.Cfg.XmlHbmBinding.Binder - Mapping class: MyGameServer.Model.User -> users
+2017-06-29 21:59:00,649 [12] INFO  NHibernate.Cfg.Configuration - checking mappings queue
+2017-06-29 21:59:00,649 [12] INFO  NHibernate.Cfg.Configuration - processing one-to-many association mappings
+2017-06-29 21:59:00,649 [12] INFO  NHibernate.Cfg.Configuration - processing one-to-one association property references
+2017-06-29 21:59:00,649 [12] INFO  NHibernate.Cfg.Configuration - processing foreign key constraints
+2017-06-29 21:59:00,650 [12] INFO  NHibernate.Cfg.Configuration - processing filters (second pass)
+2017-06-29 21:59:00,665 [12] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.MySQL5Dialect
+2017-06-29 21:59:00,672 [12] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.MySQL5Dialect
+2017-06-29 21:59:00,732 [12] INFO  NHibernate.Exceptions.SQLExceptionConverterFactory - Using dialect defined converter
+2017-06-29 21:59:00,732 [12] INFO  NHibernate.Cfg.SettingsFactory - Generate SQL with comments: disabled
+2017-06-29 21:59:00,733 [12] INFO  NHibernate.Connection.ConnectionProviderFactory - Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2017-06-29 21:59:00,733 [12] INFO  NHibernate.Connection.ConnectionProvider - Configuring ConnectionProvider
+2017-06-29 21:59:00,745 [12] INFO  NHibernate.Cfg.SettingsFactory - Transaction factory: NHibernate.Transaction.AdoNetWithDistributedTransactionFactory
+2017-06-29 21:59:00,745 [12] INFO  NHibernate.Cfg.SettingsFactory - Optimize cache for minimal puts: False
+2017-06-29 21:59:00,745 [12] INFO  NHibernate.Cfg.SettingsFactory - Connection release mode: auto
+2017-06-29 21:59:00,745 [12] INFO  NHibernate.Cfg.SettingsFactory - Default batch fetch size: 1
+2017-06-29 21:59:00,745 [12] INFO  NHibernate.Cfg.SettingsFactory - echoing all SQL to stdout
+2017-06-29 21:59:00,745 [12] INFO  NHibernate.Cfg.SettingsFactory - Statistics: disabled
+2017-06-29 21:59:00,745 [12] INFO  NHibernate.Cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+2017-06-29 21:59:00,745 [12] INFO  NHibernate.Cfg.SettingsFactory - Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2017-06-29 21:59:00,746 [12] INFO  NHibernate.Cfg.SettingsFactory - Query provider: NHibernate.Linq.DefaultQueryProvider
+2017-06-29 21:59:00,747 [12] INFO  NHibernate.Cfg.SettingsFactory - Query language substitutions: {}
+2017-06-29 21:59:00,748 [12] INFO  NHibernate.Cfg.SettingsFactory - cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=4.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2017-06-29 21:59:00,749 [12] INFO  NHibernate.Cfg.SettingsFactory - Order SQL inserts for batching: disabled
+2017-06-29 21:59:00,749 [12] INFO  NHibernate.Cfg.SettingsFactory - Order SQL updates for batching: disabled
+2017-06-29 21:59:00,750 [12] INFO  NHibernate.Cfg.SettingsFactory - Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=4.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2017-06-29 21:59:00,750 [12] INFO  NHibernate.Cfg.SettingsFactory - Default flush mode: Auto
+2017-06-29 21:59:00,750 [12] INFO  NHibernate.Cfg.SettingsFactory - Default entity-mode: Poco
+2017-06-29 21:59:00,751 [12] INFO  NHibernate.Cfg.SettingsFactory - Named query checking : enabled
+2017-06-29 21:59:00,751 [12] INFO  NHibernate.Cfg.SettingsFactory - Ignoring exceptions in BeforeTransactionCompletion : disabled
+2017-06-29 21:59:00,764 [12] INFO  NHibernate.Impl.SessionFactoryImpl - building session factory
+2017-06-29 21:59:01,285 [12] INFO  NHibernate.Impl.SessionFactoryObjectFactory - no name configured
+2017-06-29 21:59:01,721 [12] INFO  NHibernate.Loader.Loader - SELECT this_.id as id1_0_0_, this_.username as userna2_0_0_, this_.password as passwo3_0_0_, this_.registerdate as regist4_0_0_ FROM users this_ WHERE this_.username = ?p0
+2017-06-29 21:59:15,831 [11] INFO  MyGameServer.MyGameServer - 0
+2017-06-29 21:59:15,832 [11] INFO  NHibernate.Loader.Loader - SELECT this_.id as id1_0_0_, this_.username as userna2_0_0_, this_.password as passwo3_0_0_, this_.registerdate as regist4_0_0_ FROM users this_ WHERE this_.username = ?p0 and this_.password = ?p1
+2017-06-29 21:59:15,867 [11] INFO  NHibernate.Loader.Loader - SELECT this_.id as id1_0_0_, this_.username as userna2_0_0_, this_.password as passwo3_0_0_, this_.registerdate as regist4_0_0_ FROM users this_ WHERE this_.username = ?p0
+2017-06-29 23:20:43,554 [17] INFO  MyGameServer.MyGameServer - 一个客户端连接进来了

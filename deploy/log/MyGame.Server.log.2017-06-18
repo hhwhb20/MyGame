@@ -1,0 +1,15 @@
+2017-06-18 15:44:14,207 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-18 15:44:14,239 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1
+2017-06-18 17:10:03,300 [1] INFO  MyGameServer.MyGameServer - SetUp Completed!
+2017-06-18 17:10:03,310 [1] INFO  MyGameServer.MyGameServer - MapInit Start!
+2017-06-18 17:10:03,311 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-18 17:10:03,312 [1] INFO  MyGameServer.MyGameServer - MapSize初始化成功
+2017-06-18 17:10:03,312 [1] INFO  MyGameServer.MyGameServer - SaveTiledSize Start
+2017-06-18 17:10:03,312 [1] INFO  MyGameServer.MyGameServer - TiledSize初始化成功
+2017-06-18 17:10:03,313 [1] INFO  MyGameServer.MyGameServer - SaveMapTiledNum Start
+2017-06-18 17:10:03,313 [1] INFO  MyGameServer.MyGameServer - MapTiledNum初始化成功
+2017-06-18 17:10:03,313 [1] INFO  MyGameServer.MyGameServer - SaveArrayTiled Start
+2017-06-18 17:10:03,330 [1] INFO  MyGameServer.MyGameServer - Tiled初始化成功
+2017-06-18 17:10:03,331 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=MyGame1; AppPath=D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer, Type=MyGameServer.MyGameServer 
+2017-06-18 17:10:11,529 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-18 17:10:11,534 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1

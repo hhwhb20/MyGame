@@ -1,0 +1,2 @@
+2017-06-28 08:58:21,416 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-28 08:58:21,425 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1

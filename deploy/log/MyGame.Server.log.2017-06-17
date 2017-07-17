@@ -1,0 +1,218 @@
+2017-06-17 21:52:12,272 [1] INFO  MyGameServer.MyGameServer - SetUp Completed!
+2017-06-17 21:52:12,298 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=MyGame1; AppPath=D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer, Type=MyGameServer.MyGameServer 
+2017-06-17 21:52:55,857 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-17 21:52:55,887 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1
+2017-06-17 21:53:23,032 [1] INFO  MyGameServer.MyGameServer - SetUp Completed!
+2017-06-17 21:53:23,104 [1] ERROR Photon.SocketServer.ApplicationBase - System.IO.FileNotFoundException: 未能找到文件“D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\map.xml”。
+文件名:“D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\map.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(String filename)
+   在 MyGameServer.Model.MapServer.Init(String xmlPath) 位置 e:\VS程序\PhotonServer\MyGameServer\Model\MapServer.cs:行号 18
+   在 MyGameServer.MyGameServer.InitMap() 位置 e:\VS程序\PhotonServer\MyGameServer\MyGameServer.cs:行号 72
+   在 MyGameServer.MyGameServer.Setup() 位置 e:\VS程序\PhotonServer\MyGameServer\MyGameServer.cs:行号 55
+   在 Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnPhotonRunning() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\ApplicationBase.cs:行号 1171
+2017-06-17 21:53:23,439 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-17 21:53:23,446 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1
+2017-06-17 21:54:53,584 [1] INFO  MyGameServer.MyGameServer - SetUp Completed!
+2017-06-17 21:54:53,597 [1] ERROR Photon.SocketServer.ApplicationBase - System.IO.DirectoryNotFoundException: 未能找到路径“D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\Map\map.xml”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(String filename)
+   在 MyGameServer.Model.MapServer.Init(String xmlPath) 位置 e:\VS程序\PhotonServer\MyGameServer\Model\MapServer.cs:行号 18
+   在 MyGameServer.MyGameServer.InitMap() 位置 e:\VS程序\PhotonServer\MyGameServer\MyGameServer.cs:行号 72
+   在 MyGameServer.MyGameServer.Setup() 位置 e:\VS程序\PhotonServer\MyGameServer\MyGameServer.cs:行号 55
+   在 Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnPhotonRunning() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\ApplicationBase.cs:行号 1171
+2017-06-17 21:54:53,613 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-17 21:54:53,619 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1
+2017-06-17 21:56:05,979 [1] INFO  MyGameServer.MyGameServer - SetUp Completed!
+2017-06-17 21:56:05,995 [1] ERROR Photon.SocketServer.ApplicationBase - System.IO.DirectoryNotFoundException: 未能找到路径“D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\Map\map.xml”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(String filename)
+   在 MyGameServer.Model.MapServer.Init(String xmlPath) 位置 e:\VS程序\PhotonServer\MyGameServer\Model\MapServer.cs:行号 18
+   在 MyGameServer.MyGameServer.InitMap() 位置 e:\VS程序\PhotonServer\MyGameServer\MyGameServer.cs:行号 72
+   在 MyGameServer.MyGameServer.Setup() 位置 e:\VS程序\PhotonServer\MyGameServer\MyGameServer.cs:行号 55
+   在 Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnPhotonRunning() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\ApplicationBase.cs:行号 1171
+2017-06-17 21:56:06,012 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-17 21:56:06,020 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1
+2017-06-17 21:57:31,036 [1] INFO  MyGameServer.MyGameServer - SetUp Completed!
+2017-06-17 21:57:31,064 [1] ERROR Photon.SocketServer.ApplicationBase - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MyGameServer.Model.MapServer.SaveMapSize(XmlNode node) 位置 e:\VS程序\PhotonServer\MyGameServer\Model\MapServer.cs:行号 66
+   在 MyGameServer.Model.MapServer.Init(String xmlPath) 位置 e:\VS程序\PhotonServer\MyGameServer\Model\MapServer.cs:行号 31
+   在 MyGameServer.MyGameServer.InitMap() 位置 e:\VS程序\PhotonServer\MyGameServer\MyGameServer.cs:行号 72
+   在 MyGameServer.MyGameServer.Setup() 位置 e:\VS程序\PhotonServer\MyGameServer\MyGameServer.cs:行号 55
+   在 Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnPhotonRunning() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\ApplicationBase.cs:行号 1169
+2017-06-17 21:57:31,078 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-17 21:57:31,085 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1
+2017-06-17 21:59:30,452 [1] INFO  MyGameServer.MyGameServer - SetUp Completed!
+2017-06-17 21:59:30,463 [1] INFO  MyGameServer.MyGameServer - MapInit Start!
+2017-06-17 21:59:30,464 [1] ERROR Photon.SocketServer.ApplicationBase - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MyGameServer.Model.MapServer.SaveMapSize(XmlNode node) 位置 e:\VS程序\PhotonServer\MyGameServer\Model\MapServer.cs:行号 66
+   在 MyGameServer.Model.MapServer.Init(String xmlPath) 位置 e:\VS程序\PhotonServer\MyGameServer\Model\MapServer.cs:行号 31
+   在 MyGameServer.MyGameServer.InitMap() 位置 e:\VS程序\PhotonServer\MyGameServer\MyGameServer.cs:行号 73
+   在 MyGameServer.MyGameServer.Setup() 位置 e:\VS程序\PhotonServer\MyGameServer\MyGameServer.cs:行号 55
+   在 Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnPhotonRunning() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\ApplicationBase.cs:行号 1169
+2017-06-17 21:59:30,478 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-17 21:59:30,484 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1
+2017-06-17 22:00:52,206 [1] INFO  MyGameServer.MyGameServer - SetUp Completed!
+2017-06-17 22:00:52,217 [1] INFO  MyGameServer.MyGameServer - MapInit Start!
+2017-06-17 22:00:52,218 [1] INFO  MyGameServer.MyGameServer - xml读取成功
+2017-06-17 22:00:52,219 [1] ERROR Photon.SocketServer.ApplicationBase - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MyGameServer.Model.MapServer.SaveMapSize(XmlNode node) 位置 e:\VS程序\PhotonServer\MyGameServer\Model\MapServer.cs:行号 68
+   在 MyGameServer.Model.MapServer.Init(String xmlPath) 位置 e:\VS程序\PhotonServer\MyGameServer\Model\MapServer.cs:行号 33
+   在 MyGameServer.MyGameServer.InitMap() 位置 e:\VS程序\PhotonServer\MyGameServer\MyGameServer.cs:行号 73
+   在 MyGameServer.MyGameServer.Setup() 位置 e:\VS程序\PhotonServer\MyGameServer\MyGameServer.cs:行号 55
+   在 Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnPhotonRunning() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\ApplicationBase.cs:行号 1169
+2017-06-17 22:00:52,233 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-17 22:00:52,239 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1
+2017-06-17 22:01:38,205 [1] INFO  MyGameServer.MyGameServer - SetUp Completed!
+2017-06-17 22:01:38,216 [1] INFO  MyGameServer.MyGameServer - MapInit Start!
+2017-06-17 22:01:38,218 [1] INFO  MyGameServer.MyGameServer - xml读取成功
+2017-06-17 22:01:38,218 [1] INFO  MyGameServer.MyGameServer - xml读取成功
+2017-06-17 22:01:38,218 [1] INFO  MyGameServer.MyGameServer - xml读取成功
+2017-06-17 22:01:38,218 [1] ERROR Photon.SocketServer.ApplicationBase - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MyGameServer.Model.MapServer.SaveMapSize(XmlNode node) 位置 e:\VS程序\PhotonServer\MyGameServer\Model\MapServer.cs:行号 72
+   在 MyGameServer.Model.MapServer.Init(String xmlPath) 位置 e:\VS程序\PhotonServer\MyGameServer\Model\MapServer.cs:行号 37
+   在 MyGameServer.MyGameServer.InitMap() 位置 e:\VS程序\PhotonServer\MyGameServer\MyGameServer.cs:行号 73
+   在 MyGameServer.MyGameServer.Setup() 位置 e:\VS程序\PhotonServer\MyGameServer\MyGameServer.cs:行号 55
+   在 Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnPhotonRunning() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\ApplicationBase.cs:行号 1169
+2017-06-17 22:01:38,232 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-17 22:01:38,239 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1
+2017-06-17 22:03:22,648 [1] INFO  MyGameServer.MyGameServer - SetUp Completed!
+2017-06-17 22:03:22,659 [1] INFO  MyGameServer.MyGameServer - MapInit Start!
+2017-06-17 22:03:22,661 [1] ERROR Photon.SocketServer.ApplicationBase - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MyGameServer.Model.MapServer.SaveMapSize(XmlNode node) 位置 e:\VS程序\PhotonServer\MyGameServer\Model\MapServer.cs:行号 66
+   在 MyGameServer.Model.MapServer.Init(String xmlPath) 位置 e:\VS程序\PhotonServer\MyGameServer\Model\MapServer.cs:行号 31
+   在 MyGameServer.MyGameServer.InitMap() 位置 e:\VS程序\PhotonServer\MyGameServer\MyGameServer.cs:行号 73
+   在 MyGameServer.MyGameServer.Setup() 位置 e:\VS程序\PhotonServer\MyGameServer\MyGameServer.cs:行号 55
+   在 Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnPhotonRunning() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\ApplicationBase.cs:行号 1169
+2017-06-17 22:03:22,674 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-17 22:03:22,681 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1
+2017-06-17 22:04:15,752 [1] INFO  MyGameServer.MyGameServer - SetUp Completed!
+2017-06-17 22:04:15,762 [1] INFO  MyGameServer.MyGameServer - MapInit Start!
+2017-06-17 22:04:15,764 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-17 22:04:15,764 [1] ERROR Photon.SocketServer.ApplicationBase - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MyGameServer.Model.MapServer.SaveMapSize(XmlNode node) 位置 e:\VS程序\PhotonServer\MyGameServer\Model\MapServer.cs:行号 67
+   在 MyGameServer.Model.MapServer.Init(String xmlPath) 位置 e:\VS程序\PhotonServer\MyGameServer\Model\MapServer.cs:行号 31
+   在 MyGameServer.MyGameServer.InitMap() 位置 e:\VS程序\PhotonServer\MyGameServer\MyGameServer.cs:行号 73
+   在 MyGameServer.MyGameServer.Setup() 位置 e:\VS程序\PhotonServer\MyGameServer\MyGameServer.cs:行号 55
+   在 Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnPhotonRunning() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\ApplicationBase.cs:行号 1169
+2017-06-17 22:04:15,779 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-17 22:04:15,786 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1
+2017-06-17 22:05:06,429 [1] INFO  MyGameServer.MyGameServer - SetUp Completed!
+2017-06-17 22:05:06,439 [1] INFO  MyGameServer.MyGameServer - MapInit Start!
+2017-06-17 22:05:06,441 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-17 22:05:06,441 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-17 22:05:06,441 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-17 22:05:06,441 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-17 22:05:06,441 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-17 22:05:06,441 [1] ERROR Photon.SocketServer.ApplicationBase - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MyGameServer.Model.MapServer.SaveMapSize(XmlNode node) 位置 e:\VS程序\PhotonServer\MyGameServer\Model\MapServer.cs:行号 67
+   在 MyGameServer.Model.MapServer.Init(String xmlPath) 位置 e:\VS程序\PhotonServer\MyGameServer\Model\MapServer.cs:行号 31
+   在 MyGameServer.MyGameServer.InitMap() 位置 e:\VS程序\PhotonServer\MyGameServer\MyGameServer.cs:行号 73
+   在 MyGameServer.MyGameServer.Setup() 位置 e:\VS程序\PhotonServer\MyGameServer\MyGameServer.cs:行号 55
+   在 Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnPhotonRunning() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\ApplicationBase.cs:行号 1169
+2017-06-17 22:05:06,455 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-17 22:05:06,461 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1
+2017-06-17 22:18:09,541 [1] INFO  MyGameServer.MyGameServer - SetUp Completed!
+2017-06-17 22:18:09,551 [1] INFO  MyGameServer.MyGameServer - MapInit Start!
+2017-06-17 22:18:09,552 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-17 22:18:09,552 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-17 22:18:09,552 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-17 22:18:09,552 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-17 22:18:09,552 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-17 22:18:09,553 [1] ERROR Photon.SocketServer.ApplicationBase - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MyGameServer.Model.MapServer.SaveMapSize(XmlNode node) 位置 e:\VS程序\PhotonServer\MyGameServer\Model\MapServer.cs:行号 70
+   在 MyGameServer.Model.MapServer.Init(String xmlPath) 位置 e:\VS程序\PhotonServer\MyGameServer\Model\MapServer.cs:行号 31
+   在 MyGameServer.MyGameServer.InitMap() 位置 e:\VS程序\PhotonServer\MyGameServer\MyGameServer.cs:行号 73
+   在 MyGameServer.MyGameServer.Setup() 位置 e:\VS程序\PhotonServer\MyGameServer\MyGameServer.cs:行号 55
+   在 Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnPhotonRunning() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\ApplicationBase.cs:行号 1169
+2017-06-17 22:18:09,567 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-17 22:18:09,573 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1
+2017-06-17 22:25:53,132 [1] INFO  MyGameServer.MyGameServer - SetUp Completed!
+2017-06-17 22:25:53,142 [1] INFO  MyGameServer.MyGameServer - MapInit Start!
+2017-06-17 22:25:53,144 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-17 22:25:53,144 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-17 22:25:53,144 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-17 22:25:53,144 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-17 22:25:53,144 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-17 22:25:53,144 [1] ERROR Photon.SocketServer.ApplicationBase - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MyGameServer.Model.MapServer.SaveMapSize(XmlNode node) 位置 e:\VS程序\PhotonServer\MyGameServer\Model\MapServer.cs:行号 77
+   在 MyGameServer.Model.MapServer.Init(String xmlPath) 位置 e:\VS程序\PhotonServer\MyGameServer\Model\MapServer.cs:行号 31
+   在 MyGameServer.MyGameServer.InitMap() 位置 e:\VS程序\PhotonServer\MyGameServer\MyGameServer.cs:行号 73
+   在 MyGameServer.MyGameServer.Setup() 位置 e:\VS程序\PhotonServer\MyGameServer\MyGameServer.cs:行号 55
+   在 Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnPhotonRunning() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\ApplicationBase.cs:行号 1169
+2017-06-17 22:25:53,159 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-17 22:25:53,166 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1
+2017-06-17 22:26:48,994 [1] INFO  MyGameServer.MyGameServer - SetUp Completed!
+2017-06-17 22:26:49,004 [1] INFO  MyGameServer.MyGameServer - MapInit Start!
+2017-06-17 22:26:49,006 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-17 22:26:49,006 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-17 22:26:49,006 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-17 22:26:49,006 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-17 22:26:49,006 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-17 22:26:49,006 [1] ERROR Photon.SocketServer.ApplicationBase - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MyGameServer.Model.MapServer.SaveMapSize(XmlNode node) 位置 e:\VS程序\PhotonServer\MyGameServer\Model\MapServer.cs:行号 77
+   在 MyGameServer.Model.MapServer.Init(String xmlPath) 位置 e:\VS程序\PhotonServer\MyGameServer\Model\MapServer.cs:行号 31
+   在 MyGameServer.MyGameServer.InitMap() 位置 e:\VS程序\PhotonServer\MyGameServer\MyGameServer.cs:行号 73
+   在 MyGameServer.MyGameServer.Setup() 位置 e:\VS程序\PhotonServer\MyGameServer\MyGameServer.cs:行号 55
+   在 Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnPhotonRunning() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\ApplicationBase.cs:行号 1169
+2017-06-17 22:26:49,020 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-17 22:26:49,027 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1
+2017-06-17 22:32:15,208 [1] INFO  MyGameServer.MyGameServer - SetUp Completed!
+2017-06-17 22:32:15,218 [1] INFO  MyGameServer.MyGameServer - MapInit Start!
+2017-06-17 22:32:15,219 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-17 22:32:15,220 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-17 22:32:15,220 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-17 22:32:15,220 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-17 22:32:15,220 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-17 22:32:15,220 [1] INFO  MyGameServer.MyGameServer - MapSize初始化成功
+2017-06-17 22:32:15,220 [1] INFO  MyGameServer.MyGameServer - SaveTiledSize Start
+2017-06-17 22:32:15,221 [1] ERROR Photon.SocketServer.ApplicationBase - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MyGameServer.Model.MapServer.SaveTiledSize(XmlNode node) 位置 e:\VS程序\PhotonServer\MyGameServer\Model\MapServer.cs:行号 96
+   在 MyGameServer.Model.MapServer.Init(String xmlPath) 位置 e:\VS程序\PhotonServer\MyGameServer\Model\MapServer.cs:行号 35
+   在 MyGameServer.MyGameServer.InitMap() 位置 e:\VS程序\PhotonServer\MyGameServer\MyGameServer.cs:行号 73
+   在 MyGameServer.MyGameServer.Setup() 位置 e:\VS程序\PhotonServer\MyGameServer\MyGameServer.cs:行号 55
+   在 Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnPhotonRunning() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\ApplicationBase.cs:行号 1169
+2017-06-17 22:32:15,234 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-17 22:32:15,240 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1
+2017-06-17 22:34:20,734 [1] INFO  MyGameServer.MyGameServer - SetUp Completed!
+2017-06-17 22:34:20,745 [1] INFO  MyGameServer.MyGameServer - MapInit Start!
+2017-06-17 22:34:20,746 [1] INFO  MyGameServer.MyGameServer - SaveMapSize Start
+2017-06-17 22:34:20,746 [1] INFO  MyGameServer.MyGameServer - MapSize初始化成功
+2017-06-17 22:34:20,747 [1] INFO  MyGameServer.MyGameServer - SaveTiledSize Start
+2017-06-17 22:34:20,747 [1] INFO  MyGameServer.MyGameServer - TiledSize初始化成功
+2017-06-17 22:34:20,747 [1] INFO  MyGameServer.MyGameServer - SaveMapTiledNum Start
+2017-06-17 22:34:20,747 [1] INFO  MyGameServer.MyGameServer - MapTiledNum初始化成功
+2017-06-17 22:34:20,748 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=MyGame1; AppPath=D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer, Type=MyGameServer.MyGameServer 

@@ -1,0 +1,17 @@
+2017-06-03 17:25:33,173 [14] INFO  MyGameServer.MyGameServer - SetUp Completed!
+2017-06-03 17:25:33,184 [14] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=MyGame1; AppPath=D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer, Type=MyGameServer.MyGameServer 
+2017-06-03 17:25:36,231 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-03 17:25:36,235 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1
+2017-06-03 17:25:47,386 [1] INFO  MyGameServer.MyGameServer - SetUp Completed!
+2017-06-03 17:25:47,398 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=MyGame1; AppPath=D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer, Type=MyGameServer.MyGameServer 
+2017-06-03 19:19:48,864 [18] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-03 19:19:48,866 [18] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1
+2017-06-03 19:19:56,405 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-03 19:19:56,421 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1
+2017-06-03 19:20:02,809 [1] INFO  MyGameServer.MyGameServer - SetUp Completed!
+2017-06-03 19:20:02,820 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=MyGame1; AppPath=D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer, Type=MyGameServer.MyGameServer 
+2017-06-03 19:29:59,735 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-03 19:29:59,739 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1
+2017-06-03 19:30:34,021 [1] INFO  MyGameServer.MyGameServer - SetUp Completed!
+2017-06-03 19:30:34,032 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=MyGame1; AppPath=D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer, Type=MyGameServer.MyGameServer 
+2017-06-03 19:32:28,420 [12] INFO  MyGameServer.MyGameServer - 一个客户端连接进来了

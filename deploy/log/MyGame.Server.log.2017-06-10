@@ -1,0 +1,151 @@
+2017-06-10 15:37:48,758 [1] INFO  MyGameServer.MyGameServer - SetUp Completed!
+2017-06-10 15:37:48,784 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=MyGame1; AppPath=D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer, Type=MyGameServer.MyGameServer 
+2017-06-10 15:37:56,620 [11] INFO  MyGameServer.MyGameServer - 一个客户端连接进来了
+2017-06-10 15:38:18,281 [12] INFO  NHibernate.Cfg.Environment - NHibernate 4.1.1.GA (assembly 4.1.0.4000)
+2017-06-10 15:38:18,282 [12] INFO  NHibernate.Cfg.Environment - hibernate-configuration section not found in application configuration file
+2017-06-10 15:38:18,283 [12] INFO  NHibernate.Cfg.Environment - Bytecode provider name : lcg
+2017-06-10 15:38:18,284 [12] INFO  NHibernate.Cfg.Environment - Using reflection optimizer
+2017-06-10 15:38:18,497 [12] ERROR NHibernate.Cfg.Configuration - Problem parsing configuration
+NHibernate.Cfg.HibernateConfigException: An exception occurred during configuration of persistence layer. ---> System.IO.FileNotFoundException: 未能找到文件“D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\hibernate.cfg.xml”。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlCharCheckingReader.Read()
+   在 System.Xml.XsdValidatingReader.Read()
+   在 System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   在 NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+2017-06-10 15:38:18,668 [12] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:ClientPeer,ConnId:0,ip:127.0.0.1:58107, Data: F3-02-00-00-02-00-73-00-03-31-32-33-01-73-00-03-31-32-33,
+Exception:NHibernate.Cfg.HibernateConfigException: An exception occurred during configuration of persistence layer. ---> System.IO.FileNotFoundException: 未能找到文件“D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\hibernate.cfg.xml”。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlCharCheckingReader.Read()
+   在 System.Xml.XsdValidatingReader.Read()
+   在 System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   在 NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure()
+   在 MyGameServer.NHibernateHelper.get_SessionFactory() 位置 e:\VS程序\PhotonServer\MyGameServer\NHibernateHelper.cs:行号 22
+   在 MyGameServer.NHibernateHelper.OpenSession() 位置 e:\VS程序\PhotonServer\MyGameServer\NHibernateHelper.cs:行号 34
+   在 MyGameServer.Manager.UserManager.VerifyUser(String username, String password) 位置 e:\VS程序\PhotonServer\MyGameServer\Manager\UserManager.cs:行号 112
+   在 MyGameServer.Handle.LoginHandle.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters, ClientPeer peer) 位置 e:\VS程序\PhotonServer\MyGameServer\Handle\LoginHandle.cs:行号 25
+   在 MyGameServer.ClientPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 e:\VS程序\PhotonServer\MyGameServer\ClientPeer.cs:行号 61
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1244
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-06-10 15:38:20,646 [6] ERROR NHibernate.Cfg.Configuration - Problem parsing configuration
+NHibernate.Cfg.HibernateConfigException: An exception occurred during configuration of persistence layer. ---> System.IO.FileNotFoundException: 未能找到文件“D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\hibernate.cfg.xml”。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlCharCheckingReader.Read()
+   在 System.Xml.XsdValidatingReader.Read()
+   在 System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   在 NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+2017-06-10 15:38:20,646 [6] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:ClientPeer,ConnId:0,ip:127.0.0.1:58107, Data: F3-02-00-00-02-00-73-00-03-31-32-33-01-73-00-03-31-32-33,
+Exception:NHibernate.Cfg.HibernateConfigException: An exception occurred during configuration of persistence layer. ---> System.IO.FileNotFoundException: 未能找到文件“D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\hibernate.cfg.xml”。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlCharCheckingReader.Read()
+   在 System.Xml.XsdValidatingReader.Read()
+   在 System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   在 NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure()
+   在 MyGameServer.NHibernateHelper.get_SessionFactory() 位置 e:\VS程序\PhotonServer\MyGameServer\NHibernateHelper.cs:行号 22
+   在 MyGameServer.NHibernateHelper.OpenSession() 位置 e:\VS程序\PhotonServer\MyGameServer\NHibernateHelper.cs:行号 34
+   在 MyGameServer.Manager.UserManager.VerifyUser(String username, String password) 位置 e:\VS程序\PhotonServer\MyGameServer\Manager\UserManager.cs:行号 112
+   在 MyGameServer.Handle.LoginHandle.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters, ClientPeer peer) 位置 e:\VS程序\PhotonServer\MyGameServer\Handle\LoginHandle.cs:行号 25
+   在 MyGameServer.ClientPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 e:\VS程序\PhotonServer\MyGameServer\ClientPeer.cs:行号 61
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1244
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-06-10 15:45:11,729 [6] INFO  MyGameServer.MyGameServer - 一个客户端连接进来了
+2017-06-10 15:45:17,697 [11] ERROR NHibernate.Cfg.Configuration - Problem parsing configuration
+NHibernate.Cfg.HibernateConfigException: An exception occurred during configuration of persistence layer. ---> System.IO.FileNotFoundException: 未能找到文件“D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\hibernate.cfg.xml”。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlCharCheckingReader.Read()
+   在 System.Xml.XsdValidatingReader.Read()
+   在 System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   在 NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+2017-06-10 15:45:17,697 [11] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:ClientPeer,ConnId:1,ip:127.0.0.1:59873, Data: F3-02-00-00-02-00-73-00-03-31-32-33-01-73-00-03-31-32-33,
+Exception:NHibernate.Cfg.HibernateConfigException: An exception occurred during configuration of persistence layer. ---> System.IO.FileNotFoundException: 未能找到文件“D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\hibernate.cfg.xml”。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlCharCheckingReader.Read()
+   在 System.Xml.XsdValidatingReader.Read()
+   在 System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   在 NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure()
+   在 MyGameServer.NHibernateHelper.get_SessionFactory() 位置 e:\VS程序\PhotonServer\MyGameServer\NHibernateHelper.cs:行号 22
+   在 MyGameServer.NHibernateHelper.OpenSession() 位置 e:\VS程序\PhotonServer\MyGameServer\NHibernateHelper.cs:行号 34
+   在 MyGameServer.Manager.UserManager.VerifyUser(String username, String password) 位置 e:\VS程序\PhotonServer\MyGameServer\Manager\UserManager.cs:行号 112
+   在 MyGameServer.Handle.LoginHandle.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters, ClientPeer peer) 位置 e:\VS程序\PhotonServer\MyGameServer\Handle\LoginHandle.cs:行号 25
+   在 MyGameServer.ClientPeer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 e:\VS程序\PhotonServer\MyGameServer\ClientPeer.cs:行号 61
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1244
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-06-10 15:53:49,952 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2017-06-10 15:53:49,982 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1
