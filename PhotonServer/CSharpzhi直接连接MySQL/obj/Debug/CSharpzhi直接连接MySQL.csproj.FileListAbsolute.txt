@@ -1,0 +1,6 @@
+E:\VS程序\PhotonServer\CSharpzhi直接连接MySQL\bin\Debug\CSharpzhi直接连接MySQL.exe.config
+E:\VS程序\PhotonServer\CSharpzhi直接连接MySQL\bin\Debug\CSharpzhi直接连接MySQL.exe
+E:\VS程序\PhotonServer\CSharpzhi直接连接MySQL\bin\Debug\CSharpzhi直接连接MySQL.pdb
+E:\VS程序\PhotonServer\CSharpzhi直接连接MySQL\obj\Debug\CSharpzhi直接连接MySQL.csprojResolveAssemblyReference.cache
+E:\VS程序\PhotonServer\CSharpzhi直接连接MySQL\obj\Debug\CSharpzhi直接连接MySQL.exe
+E:\VS程序\PhotonServer\CSharpzhi直接连接MySQL\obj\Debug\CSharpzhi直接连接MySQL.pdb
