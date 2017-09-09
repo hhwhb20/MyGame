@@ -9,3 +9,12 @@ E:\VS程序\PhotonServer\MyGameServer\obj\Debug\MyGameServer.csprojResolveAssemb
 D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\MyGameServer.dll.config
 D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\Map\map.xml
 D:\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\hibernate.cfg.xml
+D:\Mygame\MyGame\PhotonServer\MyGameServer\obj\Debug\MyGameServer.csprojResolveAssemblyReference.cache
+D:\Mygame\MyGame\PhotonServer\MyGameServer\obj\Debug\MyGameServer.dll
+D:\Mygame\MyGame\PhotonServer\MyGameServer\obj\Debug\MyGameServer.pdb
+D:\Mygame\MyGame\deploy\MyGameServer\bin\Cache\Map\map.xml
+D:\Mygame\MyGame\deploy\MyGameServer\bin\Cache\hibernate.cfg.xml
+D:\Mygame\MyGame\deploy\MyGameServer\bin\Cache\log4net.config
+D:\Mygame\MyGame\deploy\MyGameServer\bin\Cache\MyGameServer.dll.config
+D:\Mygame\MyGame\deploy\MyGameServer\bin\Cache\MyGameServer.dll
+D:\Mygame\MyGame\deploy\MyGameServer\bin\Cache\MyGameServer.pdb

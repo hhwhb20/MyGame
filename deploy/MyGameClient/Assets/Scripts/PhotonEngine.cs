@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using ExitGames.Client.Photon;
 using Common;
+using Common.Tools;
 
 public class PhotonEngine : MonoBehaviour, IPhotonPeerListener
 {
@@ -18,6 +19,8 @@ public class PhotonEngine : MonoBehaviour, IPhotonPeerListener
     private static PhotonPeer peer;
 
     private Dictionary<OperationCode, Request> requestDict = new Dictionary<OperationCode, Request>();
+    private Dictionary<EventCode, BaseEvent> EventDict = new Dictionary<EventCode, BaseEvent>();
+    public static string username;
 
     void Awake()
     {
@@ -47,7 +50,7 @@ public class PhotonEngine : MonoBehaviour, IPhotonPeerListener
         peer.Service();
     }
 
-    void Ondestroy()
+    void OnDestroy()
     {
         if (peer != null && peer.PeerState == PeerStateValue.Connected)
         {
@@ -63,22 +66,9 @@ public class PhotonEngine : MonoBehaviour, IPhotonPeerListener
 
     public void OnEvent(EventData eventData)
     {
-        switch (eventData.Code)
-        {
-            case 1:
-                {
-                    Debug.Log("hahahaha");
-
-                    Dictionary<byte, object> data = eventData.Parameters;
-                    object intValue; object stringValue;
-                    data.TryGetValue(1, out intValue);
-                    data.TryGetValue(2, out stringValue);
-                    Debug.Log(intValue.ToString() + stringValue.ToString());
-                }
-                break;
-            default:
-                break;
-        }
+        EventCode code = (EventCode)eventData.Code;
+        BaseEvent e = DictTools.GetValue<EventCode, BaseEvent>(EventDict, code);
+        e.OnEvent(eventData);
     }
 
     public void OnOperationResponse(OperationResponse operationResponse)
@@ -110,5 +100,14 @@ public class PhotonEngine : MonoBehaviour, IPhotonPeerListener
     public void RemoveRequest(Request request)
     {
         requestDict.Remove(request.opCode);
+    }
+
+    public void AddEvent(BaseEvent e)
+    {
+        EventDict.Add(e.EventCode, e);
+    }
+    public void RemoveEvent(BaseEvent e)
+    {
+        EventDict.Remove(e.EventCode);
     }
 }
